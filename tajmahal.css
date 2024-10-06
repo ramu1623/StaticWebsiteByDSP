@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/*import used for font syles*/
+.detailed-view-bg-container {
+    background-image: url("https://www.baltana.com/files/wallpapers-23/Night-Field-Wallpaper-2560x1080-56870.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.detailed-view-heading {
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 24px;
+
+}
+/*
+it is for embed video
+*/
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*
+    won't beacuse of carsoel
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    */
+    margin: 24px;
+}
+.detailed-view-card-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(15, 7, 76);
+}
+.detailed-view-card-paragraph {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(19, 17, 40);
+}
+.detailed-view-card-text-container {
+    padding: 15px;
+}

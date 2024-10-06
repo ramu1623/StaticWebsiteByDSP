@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/*import used for font syles*/
+.bg-container {
+    background-image: url("https://wallpapershome.com/images/pages/pic_h/6487.jpg");
+    /*px is stable value */
+    /*vh or vw are changes according to the aspect ratio height is the major diff in px and vh*/
+    height: 100vh;
+    /* the image covers the entire area of the element given "px and vh are just normal sizes" */
+    background-size: cover;
+}
+.tourism-card{
+    background-color: white;
+    text-align: center;
+    background-size: cover;
+    /*height: 50vh;
+    width: 50vw;*/
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /*border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;*/
+    padding: 10px;
+}
+
+.main-heading {
+    color: red;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paragraph {
+    color: gray;
+}
+.button1 {
+    height: 30px;
+    width: 138px;
+    color: white;
+    border-radius: 25px;
+    border-width: 0px;
+    text-align: center;
+}
+.button-color1 {
+    background-color: #31b8f2;
+} 
